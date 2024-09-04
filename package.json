@@ -1,0 +1,57 @@
+{
+    "name": "8tempsstudio",
+    "version": "1.0.0",
+    "description": "## Installation",
+    "main": "app.js",
+    "directories": {
+        "lib": "lib"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "app": "node app.js",
+        "dev": "nodemon app.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/8-temps-studio/8-temps-studio-api.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/8-temps-studio/8-temps-studio-api/issues"
+    },
+    "homepage": "https://github.com/8-temps-studio/8-temps-studio-api#readme",
+    "dependencies": {
+        "bcrypt": "^5.0.1",
+        "body-parser": "^1.19.0",
+        "connect-busboy": "0.0.2",
+        "cookie-parser": "^1.4.6",
+        "cors": "^2.8.5",
+        "dotenv": "^10.0.0",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.2.1",
+        "faker-cli": "^2.0.0",
+        "ffmetadata": "^1.7.0",
+        "fluent-ffmpeg": "^2.1.2",
+        "fs-extra": "^10.0.0",
+        "get-video-dimensions": "^1.0.0",
+        "jsonwebtoken": "^8.5.1",
+        "mediainfo.js": "^0.1.7",
+        "mime": "^3.0.0",
+        "morgan": "^1.10.0",
+        "multer": "^1.4.4",
+        "mysql": "^2.18.1",
+        "mysql2": "^2.3.3",
+        "mysql2-cli": "^1.1.3",
+        "node-ffprobe": "^3.0.0",
+        "nodemailer": "^6.7.2",
+        "nodemon": "^2.0.15",
+        "pg": "^8.7.1",
+        "querystring": "^0.2.1",
+        "rand-token": "^1.0.1",
+        "sequelize": "^6.12.0-alpha.1",
+        "socket.io": "^4.4.0",
+        "swagger-jsdoc": "^6.1.0",
+        "swagger-ui-express": "^4.2.0"
+    }
+}
